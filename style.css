@@ -1,0 +1,107 @@
+*
+{
+	box-sizing: border-box;
+}
+
+[class*="kolom"] 
+{
+	width: 100%;
+	float:left;
+	padding:15px;
+}
+
+@media only screen and (min-width: 992px) 
+{
+	.kolom1{width:8.33%;}
+	.kolom2{width:16.66%;}
+	.kolom3{width:25%;}
+	.kolom4{width:33.33%;}
+	.kolom5{width:40%;}
+	.kolom6{width:50.67%;}
+	.kolom7{width:60%;}
+	.kolom8{width:66.66%;}
+	.kolom9{width:75%;}
+	.kolom10{width:83.33%;}
+	.kolom11{width:91.66%;}
+	.kolom12{width:100%;}   
+}
+
+.header
+{
+	padding:15px;
+	background-color:palegreen;
+	text-align:center;
+	font-family: monospace;
+	color: olivedrab;
+  	font-size: 15px;
+}
+.menuul
+{
+	list-style-type:none;
+}
+.menuli
+{
+	padding:10px;
+	margin-bottom:7px;
+	background-color:palegreen;
+	color:white;
+	font-family: fantasy;
+}
+.menuli:hover
+{
+	background-color:darkseagreen;
+}
+.konten
+{
+	text-align:center;
+	color: olivedrab;
+}
+.footer
+{
+	padding:15px;
+	background-color:palegreen;
+	text-align:center;
+	font-family: monospace;
+	color: olivedrab;
+}
+.mySlides 
+{
+	display:none
+}
+.w3-left, .w3-right, .w3-badge 
+{
+	cursor:pointer
+}
+.w3-badge 
+{
+	height:13px;
+	width:13px;
+	padding:0
+}
+.button
+{
+	background-color:palegreen;
+	color:green;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.btnw-group {
+    margin:0px auto; 
+}
+.button:hover
+{
+	background-color:darkseagreen;
+}
+.buttonbuy
+{
+	background-color:palegreen;
+	color:green;
+    padding: 5px 12px;
+    text-align: center;
+    font-size: 13px;
+}
+.buttonbuy:hover
+{
+	background-color:darkseagreen;
+}
